@@ -5,9 +5,15 @@ import { IoIosHelpCircleOutline } from "react-icons/io";
 import { BsGlobe2 } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 
+import {motion} from "framer-motion";
+
 const Navbar = () => {
   return (
-    <div className="bg-ternary rounded-3xl px-6 flex justify-between align-middle">
+    <motion.div
+    initial={{y: -200, opacity: 0, scale: 0.5}}
+    animate={{y: 0, opacity: 1, scale: 1}}
+    transition={{duration: 0.7, delay: 0.1}}
+    className="bg-ternary rounded-3xl px-6 flex justify-between align-middle">
         <img src={Ferarri} className="h-14 my-auto"></img>
         <div className="my-auto hidden md:flex justify-center align-middle gap-2">
             <Button text="Vehicles" />
@@ -22,7 +28,7 @@ const Navbar = () => {
             <BsGlobe2 size={19} className="my-auto select-none cursor-pointer" />
             <CgProfile size={20} className="my-auto select-none cursor-pointer" />
         </div>
-    </div>
+    </motion.div>
   )
 }
 
