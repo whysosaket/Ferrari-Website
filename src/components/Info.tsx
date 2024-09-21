@@ -1,7 +1,7 @@
 const Info = () => {
   return (
-    <div className="w-2/5 px-10 -mt-40 flex flex-col">
-      <h1 className="text-4xl font-semibold z-10">
+    <div className="md:w-2/5 md:px-10 md:-mt-40 flex flex-col">
+      <h1 className="text-2xl md:text-start text-center md:text-4xl font-semibold z-10">
         Innovating the Future of Electric Vehicles
       </h1>
       <div className="my-2 flex gap-8">

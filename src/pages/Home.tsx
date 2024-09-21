@@ -11,17 +11,17 @@ const Home = () => {
 
       {/* Exclusive text */}
       <div className="flex justify-center">
-        <h1 className="font-anton flex z-10 text-[21rem] leading-none text-center">
+        <h1 className="font-anton flex z-10 text-[5rem] md:text-[21rem] leading-none text-center">
           EXCLUSIVE
         </h1>
       </div>
 
       {/* Stats and car image */}
-      <div className="flex -mt-28 relative z-10">
-        <div className="w-1/3 mt-28 pl-10">
+      <div className="flex md:flex-row flex-col-reverse jus -mt-8 md:-mt-28 relative z-10">
+        <div className="md:w-1/3 md:mt-28 md:pl-10">
           <Stats />
         </div>
-        <img className="w-2/3" src={Car} alt="Car" />
+        <img className="md:w-2/3" src={Car} alt="Car" />
       </div>
 
       {/* Info section */}
