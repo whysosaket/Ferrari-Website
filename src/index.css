@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.my-div, .a{
+  transition: all 0.75s;
+}
+
 body{
   background-color: #FDFDFD;
 }
