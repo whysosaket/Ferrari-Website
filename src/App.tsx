@@ -9,6 +9,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   useEffect(()=>{
     setTimeout(()=>{
+      window.scroll(0,0);
       setLoading(false);
     },2500)
   }, [])

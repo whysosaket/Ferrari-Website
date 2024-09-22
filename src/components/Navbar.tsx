@@ -12,8 +12,8 @@ const Navbar = () => {
     <motion.div
     initial={{y: -200, opacity: 0, scale: 0.5}}
     animate={{y: 0, opacity: 1, scale: 1}}
-    transition={{duration: 0.7, delay: 0.1}}
-    className="bg-ternary rounded-3xl px-6 flex justify-between align-middle">
+    transition={{duration: 0, delay: 0.1}}
+    className="bg-ternary rounded-3xl px-6 a flex justify-between align-middle">
         <img src={Ferarri} className="h-14 my-auto"></img>
         <div className="my-auto hidden md:flex justify-center align-middle gap-2">
             <Button text="Vehicles" />

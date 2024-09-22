@@ -6,8 +6,8 @@ const BottomBar = () => {
     <motion.div
     initial={{x: -200, y: 200, opacity: 0, scale: 1}}
     animate={{x: 0, y: 0, opacity: 1, scale: 1}}
-    transition={{duration: 0.7, delay: 0.5}}
-    className="md:absolute bottom-2 right-10 bg-secondary text-white rounded-[3rem] px-3 py-3 flex justify-center align-middle gap-2 md:gap-4">
+    transition={{duration: 0, delay: 0.5}}
+    className="a md:absolute bottom-2 right-10 bg-secondary text-white rounded-[3rem] px-3 py-3 flex justify-center align-middle gap-2 md:gap-4">
         <button className="flex text-xs md:text-base align-middle ml-2"><span className="my-auto mx-1">Model</span> <IoChevronDown className="my-auto" /></button>
         <button className="flex text-xs md:text-base align-middle"><span className="my-auto mx-1">Trim</span> <IoChevronDown className="my-auto" /></button>
         <button className="flex text-xs md:text-base align-middle"><span className="my-auto mx-1">Exterior Paint</span> <IoChevronDown className="my-auto" /></button>

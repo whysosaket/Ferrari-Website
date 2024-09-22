@@ -58,8 +58,8 @@ const Stats = () => {
         <motion.div
         initial={{x: -200, opacity: 0, scale: 0.5}}
         animate={{x: 0, opacity: 1, scale: 1}}
-        transition={{duration: 0.7, delay: 0.55}}
-        className="">
+        transition={{duration: 0, delay: 0.55}}
+        className="a">
             <Button Icon={MdOutlineTimer} iconSize={20} text="6.6sec" />
             <p className={subtext}>0-60 mph</p>
         </motion.div>
