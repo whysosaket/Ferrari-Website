@@ -25,7 +25,9 @@ function App() {
       <Hireme />
       <Navbar />
       <Home />
-      <BottomBar />
+      <div className="md:hidden">
+        <BottomBar />
+      </div>
     </div>
   )
 }

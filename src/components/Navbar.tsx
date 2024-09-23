@@ -16,10 +16,10 @@ const Navbar = () => {
     className="bg-ternary rounded-3xl px-6 a flex justify-between align-middle">
         <img src={Ferarri} className="h-14 my-auto"></img>
         <div className="my-auto hidden md:flex justify-center align-middle gap-2">
-            <Button text="Vehicles" />
-            <Button text="Energy" />
-            <Button text="Changing" />
-            <Button text="Discover" />
+            <Button factor={1} text="Vehicles" />
+            <Button factor={1} text="Energy" />
+            <Button factor={1} text="Changing" />
+            <Button factor={1} text="Discover" />
         </div>
 
         <div className="flex my-auto justify-center align-middle gap-2">
